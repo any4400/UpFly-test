@@ -72,7 +72,8 @@ header {
     display: inline-block;
     position: absolute;
     top: 340px;
-    right: -12px;    
+    right: -12px;  
+    z-index: 1;  
 }
 .social_icons {   
     width: 40px;
@@ -254,7 +255,7 @@ img.down {
     height: 518px;
     background-color: #F6F6F5;
     position: fixed;
-    z-index: 100;
+    z-index: 3;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -263,19 +264,26 @@ img.down {
     opacity: 0;
     padding: 64px 113px;
 }
-.imdiz-close:before, .imdiz-close:after{
+.imdiz-close {
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    width: 20px;
+    height: 20px;
+}
+.imdiz-close_item:before, .imdiz-close_item:after{
     position: absolute;
     top: 26px;
     right: 39px;
     content: '';
     width: 1px;
-    height: 27px;
+    height: 20px;
     background: #69766D;
 }
-.imdiz-close:before {
+.imdiz-close_item:before {
     transform: rotate(45deg);
 }
-.imdiz-close:after {
+.imdiz-close_item:after {
     transform: rotate(-45deg);
 }
 .imdiz-close:hover {
