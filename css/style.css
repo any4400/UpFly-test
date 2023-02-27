@@ -1,5 +1,6 @@
-@import url(normalize.css);
-@import url(fonts.css);
-@import url(general.css);
-@import url(media.css);
+@import url(reset.css); /* сбрасывание стилей */
+@import url(fonts.css); /* подключение шрифтов */
+@import url(general.css); /* общий файл стилей: стили основных элементов сайта — body, input, button, ul, ol */
+@import url(about.css); /* стили компонента "about"*/
+@import url(five-steps.css); /* стили компонента "5steps"*/
 

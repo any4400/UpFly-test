@@ -1,0 +1,196 @@
+
+
+.five_steps {
+    margin-top: 168px;
+}
+@media (max-width: 767px) {
+    .five_steps {
+        margin-top: 0;
+    }
+}
+
+
+.five_steps_title {
+    width: 466px;
+    margin: 0 auto;
+}
+@media (max-width: 1200px) {
+    .five_steps_title{
+        width: 373px;
+    }
+}
+@media (max-width: 767px) {
+    .five_steps_title {
+        margin-top: 73px;
+        width: 233px;
+    }
+}
+
+
+
+
+.five_steps .divider {
+    width: 69px;
+    height: 2px;
+    background-color: #D8BFA9;
+    margin-bottom: 8px;
+}
+@media (max-width: 1200px) {
+    .five_steps .divider {
+        width: 58px;
+    }
+}
+@media (max-width: 767px) {
+    .five_steps .divider {
+        width: 47px;
+    }
+}
+
+
+.five_steps_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+@media (max-width: 1200px) {
+    .five_steps_wrapper {
+        margin-top: 67px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 767px) {
+    .five_steps_wrapper {
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+.five_steps_item {
+    width: 176px;
+}
+@media (max-width: 1200px) {
+    .five_steps_item {
+        width: 140px;
+        margin-bottom: 32px;
+    }
+}
+@media (max-width: 767px) {
+    .five_steps_item {
+        width: 125px;
+        margin-bottom: 24px;
+    }
+}
+
+
+
+.five_steps_item_title {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #161616;
+    margin-top: 58px;
+}
+@media (max-width: 1200px) {
+    .five_steps_item_title {
+        font-size: 18px;
+        margin-top: 32px;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {   
+    .five_steps_item_title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+}
+
+
+.five_steps_item_descr {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #161616;
+    margin-top: 24px;
+}
+@media (max-width: 1200px) {
+    .five_steps_item_descr {
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {   
+    .five_steps_item_descr {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 8px;
+    }
+}
+
+
+
+.five_step_icon_img img {
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 1200px) {
+    .five_step_icon_img {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767px) {   
+    .five_step_icon_img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+.five_steps_icon {
+    padding-left: 10px;
+}
+@media (max-width: 1200px) {
+    .five_steps_icon {
+        padding-left: 0;
+    }
+}
+.line_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 848px;
+    height: 87px;
+    position: absolute;
+    left: 83px;
+    top: 117px;
+}
+@media (max-width: 1200px) {
+    .line_wrapper {
+        display: none;
+    }
+}
+
+
+img.line {
+    width: 146px;
+    height: 33px;
+}
+img.up {
+    align-self: flex-start;
+}
+img.down {
+    transform: rotate(-168.57deg);
+    align-self: flex-end;
+}

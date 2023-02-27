@@ -10,71 +10,78 @@
     <title>UpFly test</title>
 </head>
 <body>
-    <div class="overlay modal-close burger-menu-close"></div>
+    <div class="overlay modal-close-js burger-menu-close-js"></div>
+
     <!-- Выпадающее меню -->
+    <!-- burger-menu-close-js  - закрытие выпадающего меню jquery-->
+
+
     <div class="menu"> 
         <img class="menu_logo" src="img/logo_white.png" alt="logo">
-        <div class="burger-close burger-menu-close"></div> 
+        <div class="burger-close burger-menu-close-js"></div> 
         <div class="burger-close_item"></div>
         <nav class = "menu_burger">
-            <ul class="menu_items_burger">
-                <li><a href="#" class="menu_item_burger">Букеты</a></li>
-                <li><a href="#" class="menu_item_burger">Отзывы</a></li>
-                <li><a href="#" class="menu_item_burger">Доставка и оплата</a></li>
-                <li><a href="#" class="menu_item_burger">Контакты</a></li>
+            <ul class="menu_items_burger flex">
+                <li><a href="javascript:void(0);" class="menu_item_burger">Букеты</a></li>
+                <li><a href="javascript:void(0);" class="menu_item_burger">Отзывы</a></li>
+                <li><a href="javascript:void(0);" class="menu_item_burger">Доставка и оплата</a></li>
+                <li><a href="javascript:void(0);" class="menu_item_burger">Контакты</a></li>
             </ul>
         </nav>
         <div class="social_wrapper_burger">
-            <div class="social_icons_burger">
-                <a href="#" class="social_item_burger">
+            <div class="social_icons_burger flex">
+                <a href="javascript:void(0);" class="social_item_burger flex">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#" class="social_item_burger">
+                <a href="javascript:void(0);" class="social_item_burger flex">
                     <i class="fa-brands fa-pinterest-p"></i>
                 </a>
-                <a href="#" class="social_item_burger">
+                <a href="javascript:void(0);" class="social_item_burger flex">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
-                <a href="#" class="social_item_burger">
+                <a href="javascript:void(0);" class="social_item_burger flex">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
             </div>
         </div>
     </div>
 
+    <!-- Конец выпадающего меню -->
+
+    <!-- burger-menu-open-js - открытие выпадающего меню jquery -->
     <header>
         <div class="container">            
-            <div class="header_body"> 
-                <div class="header_burger_wrapper  burger-menu-open"><div class="header_burger">
+            <div class="header_body flex"> 
+                <div class="header_burger_wrapper  burger-menu-open-js"><div class="header_burger">
                     <span></span> 
                 </div>
-                </div>
-                <img class="logo" src="img/logo.png" alt="logo">                             
+                </div>                            
+                <a href="javascript:void(0);"><img class="logo" src="img/logo.png" alt="logo"> </a>
                 <nav class = "header_menu">
-                    <ul class="header_menu_items">
-                        <li><a href="#" class="header_menu_item">Букеты</a></li>
-                        <li><a href="#" class="header_menu_item">Отзывы</a></li>
-                        <li><a href="#" class="header_menu_item">Доставка и оплата</a></li>
-                        <li><a href="#" class="header_menu_item">Контакты</a></li>
+                    <ul class="header_menu_items flex">
+                        <li><a href="javascript:void(0);" class="header_menu_item">Букеты</a></li>
+                        <li><a href="javascript:void(0);" class="header_menu_item">Отзывы</a></li>
+                        <li><a href="javascript:void(0);" class="header_menu_item">Доставка и оплата</a></li>
+                        <li><a href="javascript:void(0);" class="header_menu_item">Контакты</a></li>
                     </ul>
                 </nav>            
                 <div class="social_wrapper">
-                    <div class="social_icons">
-                        <a href="#" class="social_item">
+                    <div class="social_icons flex">
+                        <a href="javascript:void(0);" class="social_item flex">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-                        <a href="#" class="social_item">
+                        <a href="javascript:void(0);" class="social_item flex">
                             <i class="fa-brands fa-pinterest-p"></i>
                         </a>
-                        <a href="#" class="social_item">
+                        <a href="javascript:void(0);" class="social_item flex">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
-                        <a href="#" class="social_item">
+                        <a href="javascript:void(0);" class="social_item flex">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </div>
                 </div>                
-                <div class="call">
+                <div class="call flex">
                     <a href="tel:89602102233" class="call_img"><img src="icons/icon call.png" alt="call"> </a>
                     <a href="tel:89602102233" class="call_link">+7 (960) 210-22-33</a>
                 </div>
@@ -82,6 +89,7 @@
         </div>
     </header>
 
+    <!-- modal-open-js - открытие модального окна jquery -->
     <main>
         <section class="about">
             <div class="container">
@@ -93,7 +101,7 @@
                     <div class="title2">
                         <h2>Каждый день мы создаем новую композицию из свежих, сезонных цветов</h2>
                     </div>
-                    <button class="order_btn modal-open">Заказать сейчас</button>
+                    <button class="order_btn modal-open-js">Заказать сейчас</button>
                 </div>
                 <div class="about_img"><img src="img/flowers.png" alt="flowers"></div>   
             </div>
@@ -156,32 +164,33 @@
     </main>
 
  <!-- Модальное окно-->
+ <!-- modal-close-js - закрытие модального окна jquery -->
 
     <div class="imdiz-modal">  
         <div class="modal_stars_img">
             <img src="img/stars.png" alt="stars">
         </div>
         <h4>Обратный звонок</h4>
-        <div class="imdiz-close modal-close"></div>
+        <div class="imdiz-close modal-close-js"></div>
         <div class="imdiz-close_item"></div>
-        <form action="#">
+        <form action="javascript:void(0);">
             <div class="imdiz_info">
 
                 <div class="imdiz_info_item">
-                    <div class="imdiz_info_title">*Имя</div>
-                    <input type="text" name="name" class="imdiz_input">
+                    <label class="imdiz_info_title" for = "name">*Имя</label>
+                    <input type="text" id = "name" name="name" class="imdiz_input required">
                 </div>
 
                 <div class="imdiz_info_item">
-                    <div class="imdiz_info_title">*Телефон</div>
-                    <input type="text" name="phone" class="imdiz_input">
+                    <label class="imdiz_info_title" for = "phone">*Телефон</label>
+                    <input type="text" id = "phone" name="phone" class="imdiz_input required">
                 </div>
             </div>
             <div class="imdiz_info_subtitle">*Нажимия кнопку “Оставить заявку” я даю согласие на обработку данных </div>
-            <input type="submit" class="order_btn imdiz_btn" value="Отправить заявку"></input>
+            <input type="submit" class="imdiz_btn flex" value="Отправить заявку"></input>
         </form>                                       
     </div>
-
+<!-- Конец модального окна-->
 
 <script src="https://kit.fontawesome.com/656739fcc0.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>

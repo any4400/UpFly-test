@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Garamond';
-    src: url('../fonts/CormorantGaramond-Regular.eot');
-    src: url('../fonts/CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/CormorantGaramond-Regular.woff') format('woff'),
-    url('../fonts/CormorantGaramond-Regular.ttf') format('truetype');
+    src: url('../fonts/Garamond-Regular.eot');
+    src: url('../fonts/Garamond-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Garamond-Regular.woff') format('woff'),
+    url('../fonts/Garamond-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     }
