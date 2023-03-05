@@ -1,30 +1,30 @@
 .about {
-    margin-top: 129px;
+    margin-top: 12.9rem;
 }
 @media (max-width: 1200px) {
     .about {
-        margin-top: 139px;
+        margin-top: 13.9rem;
     }
 }
 @media (max-width: 767px) {
     .about {
-        margin-top: 51px;
+        margin-top: 5.1rem;
     }
 }
 
 .stars_img {
     position: absolute;
-    left: -91px;
-    top: -92px;
+    left: -9.1rem;
+    top: -9.2rem;
 }
 @media (max-width: 1200px) {
     .stars_img {
-        top: -83px;
-        left: -88px;
+        top: -8.3rem;
+        left: -8.8rem;
        }
        .stars_img img {
-        width: 252px;
-        height: 159px;
+        width: 25.2rem;
+        height: 15.9rem;
        }
 }
 @media (max-width: 767px) {
@@ -34,12 +34,12 @@
 }
 
 .title_wrapper {
-    width: 664px;
+    width: 66.4rem;
     display: inline-block;
 }
 @media (max-width: 1200px) {
     .title_wrapper {
-        width: 473px;
+        width: 47.3rem;
         margin: 0 auto;
     }
 }
@@ -51,46 +51,46 @@
 }
 
 .title1 {
-    margin-bottom: 32px;
+    margin-bottom: 3.2rem;
 }
 @media (max-width: 767px) {
     .title1 {
         margin: 0 auto;
-        width: 177px;
+        width: 17.7rem;
     } 
 }
 
 
 .title2 {
-    width: 570px;
-    margin-bottom: 64px;
+    width: 57rem;
+    margin-bottom: 6.4rem;
 }
 @media (max-width: 1200px) {
     .title2 {
         margin: 0 auto;
-        width: 336px;
-        margin-top: 16px;
-        margin-bottom: 32px;
+        width: 33.6rem;
+        margin-top: 1.6rem;
+        margin-bottom: 3.2rem;
     }
 }
 @media (max-width: 767px) {
     .title2 {
-        width: 206px;
+        width: 20.6rem;
     
     }
 }
 
 
 .order_btn {
-    width: 210px;
-    height: 59px;
+    width: 21rem;
+    height: 5.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #69766D;
     font-family: 'Garamond';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2rem;
     color: #F6F6F5;
     border: none;
 }
@@ -101,9 +101,9 @@
 }
 @media (max-width: 767px) {
     .order_btn {
-        width: 210px;
-        height: 59px;
-        font-size: 20px;
+        width: 21rem;
+        height: 5.9rem;
+        font-size: 2rem;
     }
 }
 
@@ -112,8 +112,23 @@
 .about_img {
     display: inline-block;
     position: absolute;
-    top: -84px;
-    right: 65px;
+    top: -8.4rem;
+    right: 6.5rem;
+    width: 33.7rem;
+    height: 46rem;
+    border-radius: 500em 500em 0 0; 
+    background: url(../img/about.jpg) center center/cover no-repeat;
+}
+.about_img::after {
+    content:"";
+    display: block;
+    width: 30.7rem;
+    height: 43rem;
+    border-radius: 500em 500em 0 0; 
+    border: 0.2rem solid #F6F6F5;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+
 }
 @media (max-width: 1200px) {
     .about_img {
